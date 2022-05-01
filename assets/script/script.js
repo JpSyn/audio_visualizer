@@ -44,7 +44,7 @@ function renderFrame() {
     for(let i = 0; i < numeroBarras; i++){
 
         const index = (i+5)*2;
-        const fd = frequencyData[index] + 20;
+        const fd = frequencyData[index];
 
         // Fetch the bar DIV element
         const bar = document.querySelector("#bar" + i);
