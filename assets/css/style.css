@@ -34,7 +34,7 @@ body {
     height: 200px;
     display: flex;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
 }
 
 .visualizer__bar {
